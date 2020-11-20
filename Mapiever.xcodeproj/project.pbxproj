@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF04681525682F58002C767E /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04681425682F58002C767E /* MKPointAnnotation-ObservableObject.swift */; };
+		EF04681825682FE7002C767E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04681725682FE7002C767E /* EditView.swift */; };
+		EF04681B256837AB002C767E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04681A256837AB002C767E /* Result.swift */; };
+		EF04681E256847AF002C767E /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04681D256847AF002C767E /* MKPointAnnotation-Codable.swift */; };
 		EF28039E25615B0500C8F042 /* MapieverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28039D25615B0500C8F042 /* MapieverApp.swift */; };
-		EF2803A025615B0500C8F042 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28039F25615B0500C8F042 /* ContentView.swift */; };
+		EF2803A025615B0500C8F042 /* WriteFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF28039F25615B0500C8F042 /* WriteFile.swift */; };
 		EF2803A225615B0600C8F042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2803A125615B0600C8F042 /* Assets.xcassets */; };
 		EF2803A525615B0600C8F042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2803A425615B0600C8F042 /* Preview Assets.xcassets */; };
+		EF2803AE2561601B00C8F042 /* ViewStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2803AD2561601B00C8F042 /* ViewStates.swift */; };
+		EF2803B2256160EC00C8F042 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2803B1256160EC00C8F042 /* MapView.swift */; };
+		EF2803B6256162D200C8F042 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2803B5256162D200C8F042 /* MainView.swift */; };
+		EF2803B92561682E00C8F042 /* FaceIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2803B82561682E00C8F042 /* FaceIDAuth.swift */; };
+		EF90609425642DDC00B591F8 /* AdvancedMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF90609325642DDC00B591F8 /* AdvancedMapView.swift */; };
+		EF9060972564318300B591F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9060962564318300B591F8 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF04681425682F58002C767E /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		EF04681725682FE7002C767E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		EF04681A256837AB002C767E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EF04681D256847AF002C767E /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
 		EF28039A25615B0500C8F042 /* Mapiever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mapiever.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF28039D25615B0500C8F042 /* MapieverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapieverApp.swift; sourceTree = "<group>"; };
-		EF28039F25615B0500C8F042 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF28039F25615B0500C8F042 /* WriteFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteFile.swift; sourceTree = "<group>"; };
 		EF2803A125615B0600C8F042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2803A425615B0600C8F042 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF2803A625615B0600C8F042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2803AD2561601B00C8F042 /* ViewStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStates.swift; sourceTree = "<group>"; };
+		EF2803B1256160EC00C8F042 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EF2803B5256162D200C8F042 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EF2803B82561682E00C8F042 /* FaceIDAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDAuth.swift; sourceTree = "<group>"; };
+		EF90609325642DDC00B591F8 /* AdvancedMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedMapView.swift; sourceTree = "<group>"; };
+		EF9060962564318300B591F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +72,18 @@
 		EF28039C25615B0500C8F042 /* Mapiever */ = {
 			isa = PBXGroup;
 			children = (
+				EF2803AD2561601B00C8F042 /* ViewStates.swift */,
 				EF28039D25615B0500C8F042 /* MapieverApp.swift */,
-				EF28039F25615B0500C8F042 /* ContentView.swift */,
+				EF28039F25615B0500C8F042 /* WriteFile.swift */,
+				EF2803B82561682E00C8F042 /* FaceIDAuth.swift */,
+				EF2803B1256160EC00C8F042 /* MapView.swift */,
+				EF04681425682F58002C767E /* MKPointAnnotation-ObservableObject.swift */,
+				EF04681D256847AF002C767E /* MKPointAnnotation-Codable.swift */,
+				EF04681725682FE7002C767E /* EditView.swift */,
+				EF90609325642DDC00B591F8 /* AdvancedMapView.swift */,
+				EF9060962564318300B591F8 /* ContentView.swift */,
+				EF04681A256837AB002C767E /* Result.swift */,
+				EF2803B5256162D200C8F042 /* MainView.swift */,
 				EF2803A125615B0600C8F042 /* Assets.xcassets */,
 				EF2803A625615B0600C8F042 /* Info.plist */,
 				EF2803A325615B0600C8F042 /* Preview Content */,
@@ -138,8 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2803A025615B0500C8F042 /* ContentView.swift in Sources */,
+				EF90609425642DDC00B591F8 /* AdvancedMapView.swift in Sources */,
+				EF2803AE2561601B00C8F042 /* ViewStates.swift in Sources */,
+				EF9060972564318300B591F8 /* ContentView.swift in Sources */,
+				EF2803B2256160EC00C8F042 /* MapView.swift in Sources */,
+				EF04681525682F58002C767E /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				EF2803A025615B0500C8F042 /* WriteFile.swift in Sources */,
+				EF04681E256847AF002C767E /* MKPointAnnotation-Codable.swift in Sources */,
+				EF04681825682FE7002C767E /* EditView.swift in Sources */,
+				EF2803B92561682E00C8F042 /* FaceIDAuth.swift in Sources */,
+				EF2803B6256162D200C8F042 /* MainView.swift in Sources */,
 				EF28039E25615B0500C8F042 /* MapieverApp.swift in Sources */,
+				EF04681B256837AB002C767E /* Result.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
